@@ -1,0 +1,161 @@
+RewriteEngine On
+<Files 403.shtml>
+order allow,deny
+</Files>
+RewriteEngine on
+# Options +FollowSymlinks
+RewriteEngine on
+RewriteBase / 
+RewriteCond %{REMOTE_ADDR} ^61\.(7[89]|8[0-5])\. [NC,OR]
+RewriteCond %{REMOTE_ADDR} ^218\.(14[4-9]|15[0-9])\. [NC,OR]
+        # Un h&#244;te qui tente de se cacher dans une reverse DNS lookup
+RewriteCond %{REMOTE_HOST} ^private$ [NC,OR]
+RewriteEngine on
+# Options +FollowSymlinks
+RewriteEngine on
+
+Options -Indexes
+order allow,deny
+
+
+RewriteEngine On
+RewriteCond %{REMOTE_ADDR} ^82.20.255.107$
+RewriteCond %{REMOTE_ADDR} ^76.14.85.24$
+RewriteCond %{REMOTE_ADDR} ^93.40.130.78$
+RewriteCond %{REMOTE_ADDR} ^2.121.190.252$
+RewriteCond %{REMOTE_ADDR} ^23.242.68.213$
+RewriteCond %{REMOTE_ADDR} ^2.223.224.69$
+RewriteCond %{REMOTE_ADDR} ^80.229.105.197$
+RewriteCond %{REMOTE_ADDR} ^80.254.147.172$
+RewriteCond %{REMOTE_ADDR} ^77.101.127.41$
+RewriteCond %{REMOTE_ADDR} ^82.54.115.146$
+RewriteCond %{REMOTE_ADDR} ^95.226.168.197$
+RewriteCond %{REMOTE_ADDR} ^5.69.136.148$
+RewriteCond %{REMOTE_ADDR} ^86.171.70.64$
+RewriteCond %{REMOTE_ADDR} ^86.129.125.226$
+RewriteCond %{REMOTE_ADDR} ^213.107.231.88$
+RewriteCond %{REMOTE_ADDR} ^86.146.245.57$
+RewriteCond %{REMOTE_ADDR} ^31.53.224.194$
+RewriteCond %{REMOTE_ADDR} ^120.148.12.43$
+RewriteCond %{REMOTE_ADDR} ^94.194.178.112$
+RewriteCond %{REMOTE_ADDR} ^90.204.228.241$
+RewriteCond %{REMOTE_ADDR} ^88.105.240.73$
+RewriteCond %{REMOTE_ADDR} ^2.121.21.64$
+RewriteCond %{REMOTE_ADDR} ^80.0.148.21$
+RewriteCond %{REMOTE_ADDR} ^2.54.154.72$
+RewriteCond %{REMOTE_ADDR} ^151.229.112.124$
+RewriteCond %{REMOTE_ADDR} ^80.6.237.96$
+RewriteCond %{REMOTE_ADDR} ^2.121.49.127$
+RewriteCond %{REMOTE_ADDR} ^62.253.57.202$
+RewriteCond %{REMOTE_ADDR} ^81.152.78.229$
+RewriteCond %{REMOTE_ADDR} ^94.14.118.204$
+RewriteCond %{REMOTE_ADDR} ^90.209.39.146$
+RewriteCond %{REMOTE_ADDR} ^86.165.5.137$
+RewriteCond %{REMOTE_ADDR} ^90.192.253.68$
+RewriteCond %{REMOTE_ADDR} ^81.156.252.14$
+RewriteCond %{REMOTE_ADDR} ^146.199.47.198$
+RewriteCond %{REMOTE_ADDR} ^77.98.237.164$
+RewriteCond %{REMOTE_ADDR} ^90.217.140.26$
+RewriteCond %{REMOTE_ADDR} ^151.227.39.177$
+RewriteCond %{REMOTE_ADDR} ^90.203.109.12$
+RewriteCond %{REMOTE_ADDR} ^31.52.145.193$
+RewriteCond %{REMOTE_ADDR} ^99.251.0.99$
+RewriteCond %{REMOTE_ADDR} ^99.230.38.140$
+RewriteCond %{REMOTE_ADDR} ^107.77.75.109$
+RewriteCond %{REMOTE_ADDR} ^149.88.2.145$
+RewriteCond %{REMOTE_ADDR} ^184.179.23.226$
+RewriteCond %{REMOTE_ADDR} ^135.19.218.241$
+RewriteCond %{REMOTE_ADDR} ^49.219.158.113$
+RewriteCond %{REMOTE_ADDR} ^103.252.200.250$
+RewriteCond %{REMOTE_ADDR} ^71.171.83.6$
+RewriteCond %{REMOTE_ADDR} ^175.136.232.227$
+RewriteCond %{REMOTE_ADDR} ^79.144.136.116$
+RewriteCond %{REMOTE_ADDR} ^115.84.150.92$
+RewriteCond %{REMOTE_ADDR} ^81.61.46.78$
+RewriteCond %{REMOTE_ADDR} ^86.84.114.70$
+RewriteCond %{REMOTE_ADDR} ^88.149.210.40$
+RewriteCond %{REMOTE_ADDR} ^89.101.249.51$
+RewriteCond %{REMOTE_ADDR} ^93.34.226.73$
+RewriteCond %{REMOTE_ADDR} ^88.105.22.66$
+RewriteCond %{REMOTE_ADDR} ^82.51.42.94$
+RewriteCond %{REMOTE_ADDR} ^77.99.151.7$
+RewriteCond %{REMOTE_ADDR} ^2.125.57.146$
+RewriteCond %{REMOTE_ADDR} ^90.216.213.197$
+RewriteCond %{REMOTE_ADDR} ^91.84.84.220$
+RewriteCond %{REMOTE_ADDR} ^86.128.34.205$
+RewriteCond %{REMOTE_ADDR} ^90.244.156.143$
+RewriteCond %{REMOTE_ADDR} ^151.16.187.65$
+RewriteCond %{REMOTE_ADDR} ^109.234.204.162$
+RewriteCond %{REMOTE_ADDR} ^86.175.99.122$
+RewriteCond %{REMOTE_ADDR} ^93.149.240.89$
+RewriteCond %{REMOTE_ADDR} ^210.1.192.157$
+RewriteCond %{REMOTE_ADDR} ^92.4.67.57$
+RewriteCond %{REMOTE_ADDR} ^86.142.127.71$
+RewriteCond %{REMOTE_ADDR} ^180.245.160.222$
+RewriteCond %{REMOTE_ADDR} ^90.217.237.165$
+RewriteCond %{REMOTE_ADDR} ^128.199.243.158$
+RewriteCond %{REMOTE_ADDR} ^125.164.221.196$
+RewriteCond %{REMOTE_ADDR} ^43.224.32.4$
+RewriteCond %{REMOTE_ADDR} ^2.32.147.131$
+RewriteCond %{REMOTE_ADDR} ^188.82.164.38$
+RewriteCond %{REMOTE_ADDR} ^62.108.225.74$
+RewriteCond %{REMOTE_ADDR} ^93.45.174.233$
+RewriteCond %{REMOTE_ADDR} ^79.12.43.76$
+RewriteCond %{REMOTE_ADDR} ^93.46.146.187$
+RewriteCond %{REMOTE_ADDR} ^151.29.205.42$
+RewriteCond %{REMOTE_ADDR} ^178.162.209.102$
+RewriteCond %{REMOTE_ADDR} ^104.207.136.15$
+RewriteCond %{REMOTE_ADDR} ^74.67.56.132$
+RewriteCond %{REMOTE_ADDR} ^151.73.34.28$
+RewriteCond %{REMOTE_ADDR} ^87.20.207.80$
+RewriteCond %{REMOTE_ADDR} ^90.210.204.191$
+RewriteCond %{REMOTE_ADDR} ^79.54.139.160$
+RewriteCond %{REMOTE_ADDR} ^78.150.230.68$
+RewriteCond %{REMOTE_ADDR} ^79.9.75.66$
+RewriteCond %{REMOTE_ADDR} ^151.21.113.103$
+RewriteCond %{REMOTE_ADDR} ^82.58.95.242$
+RewriteCond %{REMOTE_ADDR} ^82.53.106.11$
+RewriteCond %{REMOTE_ADDR} ^109.147.115.64$
+RewriteCond %{REMOTE_ADDR} ^151.64.28.198$
+RewriteCond %{REMOTE_ADDR} ^82.52.96.136$
+RewriteCond %{REMOTE_ADDR} ^110.77.136.54$
+RewriteCond %{REMOTE_ADDR} ^93.147.178.223$
+RewriteCond %{REMOTE_ADDR} ^212.195.233.226$
+RewriteCond %{REMOTE_ADDR} ^50.247.22.220$
+RewriteCond %{REMOTE_ADDR} ^216.232.97.55$
+RewriteCond %{REMOTE_ADDR} ^105.235.106.219$
+RewriteCond %{REMOTE_ADDR} ^80.111.42.18$
+RewriteCond %{REMOTE_ADDR} ^2.33.107.202$
+RewriteCond %{REMOTE_ADDR} ^202.62.17.23$
+RewriteCond %{REMOTE_ADDR} ^122.151.70.29$
+RewriteCond %{REMOTE_ADDR} ^99.21.213.219$
+RewriteCond %{REMOTE_ADDR} ^95.45.74.65$
+RewriteCond %{REMOTE_ADDR} ^93.150.226.78$
+RewriteCond %{REMOTE_ADDR} ^92.251.204.29$
+RewriteCond %{REMOTE_ADDR} ^105.139.242.211$
+RewriteCond %{REMOTE_ADDR} ^73.16.208.33$
+RewriteCond %{REMOTE_ADDR} ^86.128.105.209$
+
+
+# 
+# Un h&#244;te qui tente de se cacher dans une reverse DNS lookup 
+RewriteCond %{REMOTE_HOST} ^private$ [NC,OR] 
+# 
+# Sites de surveillance du Web (peut n&#233;cessiter ipchains) 
+# 
+# Un faux referrer souvent utilis&#233; 
+# 
+# Le referrer "addresses.com" est utilis&#233; par un email address extractor 
+# 
+# Bloque les navigateurs se dissimulants avec des lettres et chiffres al&#233;atoires 
+
+
+<Limit GET POST PUT HEAD> 
+
+order allow,deny 
+
+</Limit> 
+order allow,deny 
+
+Options -Indexes  
+##Off to the Mouse they go##
